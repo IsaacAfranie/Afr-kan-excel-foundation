@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { assets } from '../assets/assets'
 import afkr4 from '../assets/afkr4.jpg'
 import { motion } from 'framer-motion'
@@ -35,7 +36,9 @@ export default function () {
                     </div>
                 </div>
                 <p className='my-10 max-w-lg text-gray-700'>Afri Kan-excel Foundation is dedicated to fostering sustainable development and empowering communities across Africa through education, entrepreneurship, and social initiatives. Our mission is to create lasting impact by connecting people to opportunities and resources that drive positive change.</p>
-                <a href="#Contact" className='btn-brand px-8 py-2 rounded cursor-pointer'>Get involved</a>
+                <Link to="/signup">
+                    <a href="signup" className='btn-brand px-8 py-2 rounded cursor-pointer'>Get involved</a>
+                </Link>
             </div>
         </div>
     </motion.div>

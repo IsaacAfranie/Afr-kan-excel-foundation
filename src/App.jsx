@@ -1,20 +1,22 @@
-import React from 'react'
-import MetaTags from './components/MetaTags'
-import Header from "./components/Header"
-import About from './components/About'
-import Projects from './components/Projects'
-import Gallery from './components/Gallery'
-import Testimonials from './components/Testimonials'
-import Volunteer from './components/Volunteer'
-import Donate from './components/Donate'
-import Contact from './components/Contact'
-import Team from './components/Team'
-import Footer from './components/Footer'
+import React from "react"
+import { Routes, Route } from "react-router-dom"
 
-export default function App() {
+import MetaTags from "./components/MetaTags"
+import Header from "./components/Header"
+import About from "./components/About"
+import Projects from "./components/Projects"
+import Gallery from "./components/Gallery"
+import Testimonials from "./components/Testimonials"
+import Volunteer from "./components/Volunteer"
+import Donate from "./components/Donate"
+import Contact from "./components/Contact"
+import Team from "./components/Team"
+import Footer from "./components/Footer"
+import Signup from "./components/Signup"
+
+function Home() {
   return (
     <>
-      <MetaTags />
       <Header />
       <About />
       <Projects />
@@ -29,4 +31,14 @@ export default function App() {
   )
 }
 
-
+export default function App() {
+  return (
+    <>
+      <MetaTags />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </>
+  )
+}
