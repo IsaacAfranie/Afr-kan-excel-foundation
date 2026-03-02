@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
+import { ENDPOINTS } from '../config'
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -21,7 +22,7 @@ export default function Contact() {
     setSuccess(false)
 
     try{
-      const res = await fetch("http://localhost:8000/api/contact",{
+      const res = await fetch(ENDPOINTS.CONTACT, {
         method:"POST",
         headers:{ "Content-Type":"application/json" },
         body: JSON.stringify({
