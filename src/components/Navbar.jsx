@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
         <Link to="/">
-          <img src={assets.logo} alt="Afri Kan-excel" className="w-10 h-10 cursor-pointer"/>
+          <img src={assets.logo2} alt="Afri Kan-excel" className="w-10 h-10 cursor-pointer"/>
         </Link>
         <ul className="hidden md:flex gap-7 text-white">
           <a href="#Header" className="cursor-pointer hover:text-grey-400">Home</a>
