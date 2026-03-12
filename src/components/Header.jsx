@@ -52,7 +52,9 @@ export default function Header() {
             <div className="mt-8 flex gap-4 flex-wrap">
               {/* Smooth scroll button */}
               <ScrollLink
-                to="Programs"
+
+                id="Projects"
+                to="Projects"
                 smooth={true}
                 duration={500}
                 className="inline-block bg-white text-brand font-semibold px-6 py-3 rounded shadow hover:scale-[1.02] transition cursor-pointer"
