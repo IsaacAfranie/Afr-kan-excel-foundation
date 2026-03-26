@@ -6,7 +6,7 @@ import { assets } from '../assets/assets'
 const quickLinks = [
   { label: 'About',      to: 'About' },
   { label: 'Programs',   to: 'Programs' },
-  { label: 'Volunteer',  to: 'Volunteer' },
+  // { label: 'Volunteer',  to: 'Volunteer' },
   { label: 'Donate',     to: 'Donate' },
   { label: 'Contact',    to: 'Contact' },
 ]
@@ -67,7 +67,7 @@ export default function Footer() {
         {/* Brand column */}
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-4">
-            <img src={assets.logo_dark} alt="Afri Kan-Excel Foundation" className="w-10 h-10 brightness-0 invert" />
+            <img src={assets.logo2} alt="Afri Kan-Excel Foundation" className="w-10 h-10 brightness-0 invert" />
             <div>
               <p className="font-bold text-white leading-tight">Afri Kan-Excel</p>
               <p className="text-xs text-gray-400">Renaissance Foundation</p>
