@@ -28,6 +28,16 @@ import sanitation1 from './sanitation-1.jpg'
 import sanitation2 from './sanitation-2.jpg'
 import sanitation3 from './sanitation-3.jpg'
 import sanitation4 from './sanitation-4.jpg'
+import manifesto1 from './manifesto-1.jpg'
+import manifesto2 from './manifesto-2.jpg'
+import manifesto3 from './manifesto-3.jpg'
+import manifesto4 from './manifesto-4.jpg'
+import manifesto5 from './manifesto-5.jpg'
+import manifesto6 from './manifesto-6.jpg'
+import manifesto7 from './manifesto-7.jpg'
+import manifesto8 from './manifesto-8.jpg'
+import manifesto9 from './manifesto-9.jpg'
+import manifesto10 from './manifesto-10.jpg'
 
 
 export const assets = {
@@ -60,8 +70,17 @@ export const assets = {
   sanitation1,
   sanitation2,
   sanitation3,
-  sanitation4
-
+  sanitation4,
+  manifesto1,
+  manifesto2,
+  manifesto3,
+  manifesto4,
+  manifesto5,
+  manifesto6,
+  manifesto7,
+  manifesto8,
+  manifesto9,
+  manifesto10,
 
   
   
@@ -101,7 +120,7 @@ export const projectsData = [
       "Cultural Intelligence (CQ)",
       "Leadership",
     ],
-    gallery: [afkr3],
+    gallery: [manifesto1, manifesto2, manifesto3, manifesto4, manifesto5, manifesto6, manifesto7, manifesto8, manifesto9, manifesto10],
     category: "Education",
     status: "",
   },
