@@ -205,6 +205,7 @@ export const testimonialsData = [
     title: "HEADPASTOR AND FOUNDER OF GLORY INTERCONTINENTAL CHURCH",
     image: richObeng,
     alt: "Portrait of Ing. Richard Obeng",
+    objectPosition: "top",
     rating: 5,
     text: "It was an honor to chair the AERF launching ceremony. What struck me wasn't just the energy in the room, but the sheer discipline of the team. This is an institution built to last, and I am proud to stand behind their mission"
   },
